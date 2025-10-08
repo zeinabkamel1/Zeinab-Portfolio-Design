@@ -395,6 +395,9 @@ span {
     #menu-icon {
         display: block;
     }
+    body {
+        font-size: 15px;
+    }
 
     .navbar {
         position: absolute;
@@ -492,20 +495,3 @@ span {
     }
 }
 
-@media (max-width: 350px) {
-    .home-img img {
-        width: 60vw;
-    }
-
-    .about-img img {
-        width: 60vw;
-    }
-
-    .footer {
-        flex-direction: column-reverse;
-    }
-    .footer p {
-        text-align: center;
-        margin-top: 1rem;
-    }
-}
